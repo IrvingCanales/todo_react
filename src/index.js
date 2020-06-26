@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Todo from './Components/Todo'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="container">
+      <Todo/>
+    </div>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
